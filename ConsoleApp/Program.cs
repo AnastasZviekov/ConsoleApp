@@ -5,7 +5,6 @@
         static void Main(string[] args)
 
         {
-
             /*
 			 * 1.Ініціалізувати цілу числову змінну x та присвоїти їй значення 10.
 			 * 2.Ініціалізувати строку str з текстом "Hi from Hillel" та вивести її в консоль.
@@ -16,10 +15,12 @@
             //START CODE HERE			
 
             int x = 10;
+
             string str = "Hi from Hillel";
+
             int y = x + 5;
 
-            int Sum(int num1,int num2)
+            static int Sum(int num1,int num2)
             {
                 return num1 + num2;
             }
