@@ -20,10 +20,7 @@
 
             int y = x + 5;
 
-            static int Sum(int num1,int num2)
-            {
-                return num1 + num2;
-            }
+         
 
             // END CODE HERE
 
@@ -45,7 +42,10 @@
         }
 
         // START CODE METHOD HERE			
-
+        static int Sum(int num1, int num2)
+        {
+            return num1 + num2;
+        }
 
         // END CODE METHOD HERE
     }
